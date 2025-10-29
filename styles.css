@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6f7;
+}
+
+.topbar {
+  background: #232f3e;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff9900;
+  text-decoration: none;
+}
+
+.cart-link {
+  margin-left: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 200px;
+}
+.search-bar button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.home h1 {
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+.btn {
+  background: #ff9900;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-page {
+  padding: 20px;
+  background: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.total-row {
+  font-size: 20px;
+  margin: 15px 0;
+}
